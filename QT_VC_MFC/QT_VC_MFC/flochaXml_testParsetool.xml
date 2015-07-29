@@ -1,0 +1,65 @@
+<FlowChart>
+    <VarPool>
+        <Local_aaa useTimes="25">30</Local_aaa>
+        <Local_bbb>0.5</Local_bbb>
+        <Local_ccc>0</Local_ccc>
+    </VarPool>
+    <Assem>
+        <Name useTimes="25">a01</Name>
+        <Start useTimes="25">set_0</Start>
+        <Next/>
+        <Pos useTimes="25">50,50</Pos>
+        <StartPos useTimes="75">438,-11</StartPos>
+        <EndPos useTimes="100">346,319</EndPos>
+        <Sub>
+            <Set>
+                <Name>set_0</Name>
+                <Next>virtualendflocha</Next>
+                <Pos>291,152</Pos>
+                <VarName>Local_bbb</VarName>
+                <Statement>sin(30*2*sin(Local_aaa*3.1415926/180)*3.1415926/180)</Statement>
+            </Set>
+        </Sub>
+        <LoopRunTimes useTimes="75">0</LoopRunTimes>
+        <SleepPerLoop useTimes="50">0</SleepPerLoop>
+        <LoopRunCntStr useTimes="50">LoopRunCnt</LoopRunCntStr>
+    </Assem>
+    <VarDisplayUnits>
+        <Unit>
+            <VarName>Local_aaa</VarName>
+            <TextMap>
+                <Pair>
+                    <Key>100</Key>
+                    <Text></Text>
+                </Pair>
+                <Pair>
+                    <Key>500</Key>
+                    <Text></Text>
+                </Pair>
+            </TextMap>
+            <IconMap>
+                <Pair>10,2</Pair>
+                <Pair>111,5</Pair>
+            </IconMap>
+            <UnitSetting>0</UnitSetting>
+        </Unit>
+        <Unit>
+            <VarName>Local_bbb</VarName>
+            <TextMap>
+                <Pair>
+                    <Key>100</Key>
+                    <Text></Text>
+                </Pair>
+                <Pair>
+                    <Key>500</Key>
+                    <Text></Text>
+                </Pair>
+            </TextMap>
+            <IconMap>
+                <Pair>10,2</Pair>
+                <Pair>111,5</Pair>
+            </IconMap>
+            <UnitSetting>0</UnitSetting>
+        </Unit>
+    </VarDisplayUnits>
+</FlowChart>

@@ -1,0 +1,25 @@
+<PhotonMainWin>
+    <MenuBar>
+        <Menu>
+            <Action>
+                <Title>test1</Title>
+                <XmlPath/>
+                <IconPath/>
+                <Prompt>test prompt1</Prompt>
+            </Action>
+            <Action>
+                <Title>test2</Title>
+                <XmlPath/>
+                <IconPath/>
+                <Prompt>test prompt2</Prompt>
+            </Action>
+        </Menu>
+    </MenuBar>
+    <ToolBar/>
+    <IconPathList useTimes="25"><IconPath useTimes="25">./icons/user_define/1.jpg</IconPath>
+        <IconPath useTimes="25">./icons/user_define/2.jpg</IconPath>
+        <IconPath useTimes="25">./icons/user_define/3.jpg</IconPath>
+        <IconPath useTimes="25">./icons/user_define/4.jpg</IconPath>
+        <IconPath useTimes="25">./icons/user_define/5.jpg</IconPath>
+    </IconPathList>
+</PhotonMainWin>
